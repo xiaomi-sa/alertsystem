@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="testkey1"
+    android:title="@string/settings" >
+
+    <PreferenceCategory
+        android:key="p0_sound_key"
+        android:title="@string/P0" >
+        <ListPreference
+            android:defaultValue="SOUND"
+            android:dialogTitle="@string/sound"
+            android:entries="@array/sound_type"
+            android:entryValues="@array/pref_notification_values"
+            android:key="pref_p0_notification"
+            android:title="@string/alert_setting" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="p1_sound_key"
+        android:title="@string/P1" >
+        <ListPreference
+            android:defaultValue="SOUND"
+            android:dialogTitle="@string/sound"
+            android:entries="@array/sound_type"
+            android:entryValues="@array/pref_notification_values"
+            android:key="pref_p1_notification"
+            android:title="@string/alert_setting" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="p2_sound_key"
+        android:title="@string/P2" >
+        <ListPreference
+            android:defaultValue="SOUND"
+            android:dialogTitle="@string/sound"
+            android:entries="@array/sound_type"
+            android:entryValues="@array/pref_notification_values"
+            android:key="pref_p2_notification"
+            android:title="@string/alert_setting" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="p3_sound_key"
+        android:title="@string/P3" >
+        <ListPreference
+            android:defaultValue="SOUND"
+            android:dialogTitle="@string/sound"
+            android:entries="@array/sound_type"
+            android:entryValues="@array/pref_notification_values"
+            android:key="pref_p3_notification"
+            android:title="@string/alert_setting" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="p4_sound_key"
+        android:title="@string/P4" >
+        <ListPreference
+            android:defaultValue="SOUND"
+            android:dialogTitle="@string/sound"
+            android:entries="@array/sound_type"
+            android:entryValues="@array/pref_notification_values"
+            android:key="pref_p4_notification"
+            android:title="@string/alert_setting" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="p5_sound_key"
+        android:title="@string/P5" >
+        <ListPreference
+            android:defaultValue="SOUND"
+            android:dialogTitle="@string/sound"
+            android:entries="@array/sound_type"
+            android:entryValues="@array/pref_notification_values"
+            android:key="pref_p5_notification"
+            android:title="@string/alert_setting" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

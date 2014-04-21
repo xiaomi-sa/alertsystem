@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/all_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title_container"
+        android:layout_width="fill_parent"
+        android:layout_height="48dip"
+        android:layout_gravity="center"
+        android:background="@color/xiaomiYellow" >
+
+        <ImageView
+            android:id="@+id/goback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:paddingBottom="5dip"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="5dip"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/title_text"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/rules"/>
+         
+         <ImageView
+            android:id="@+id/addrules"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:paddingBottom="5dip"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="5dip"
+            android:scaleType="centerInside"
+            android:src="@drawable/button_above_more" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/phone_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:divider="@color/diviverLine"
+        android:dividerHeight="0.5dip" >
+    </ListView>
+
+</LinearLayout>

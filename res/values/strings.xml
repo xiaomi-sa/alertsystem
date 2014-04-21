@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">报警助手</string>
+    <string name="version">1.0.4</string>
+    <string name="title">Alert</string>
+    <string name="level_title">%1$s 问题</string>
+    <string name="thread_title">%1$s %2$s 问题</string>
+    <string name="sender_address">发件人:</string>
+    <string name="safetype">告警级别:</string>
+    <string name="hostname">主机名:</string>
+    <string name="machine_ip">机器的IP:</string>
+    <string name="warings_content">告警具体内容:</string>
+    <string name="warings_time">告警发生时间:</string>
+    <string name="content">内容</string>
+    <string name="flag">故障状态:</string>
+    <string name="settings">设置</string>
+    <string name="sound">声音设置</string>
+    <string name="alert_setting">提醒设置</string>
+    <string name="rules">拦截规则</string>
+    <string name="addrules">添加拦截规则</string>
+    <string name="weidu">未读</string>
+    <string name="yidu">已读</string>
+    <string name="addohone">添加拦截号码</string>
+    <string name="notnull">电话号码不能为空</string>
+    <string name="toolong">电话号码不能过长</string>
+    <string name="allreadyexist">电话号码已经存在</string>
+    <string name="phoneaddsuss">拦截号码添加成功</string>
+    <string name="phone">电话列表</string>
+    <string name="deleteall">删除所有</string>
+    <string name="deletehasread">删除已读</string>
+    <string name="P0">P0提醒设置</string>
+    <string name="P1">P1提醒设置</string>
+    <string name="P2">P2提醒设置</string>
+    <string name="P3">P3提醒设置</string>
+    <string name="P4">P4提醒设置</string>
+    <string name="P5">P5提醒设置</string>
+    <string name="P6">P6提醒设置</string>
+    <string name="sms_content">短信详情</string>
+    <string name="msg">消息原文:</string>
+    <string name="cancel">取消</string>
+    <string name="ok">确定</string>
+    <string name="intercept">拦截列表</string>
+    <string name="versionupdate">版本更新</string>
+    <string name="usage">使用说明</string>
+    <string name="about">关于我们</string>
+    
+
+</resources>

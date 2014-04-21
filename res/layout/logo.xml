@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".StartActivity" >
+
+    <ImageView
+        android:id="@+id/backcolor"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:src="@color/xiaomiYellow" />
+
+    <TextView
+        android:id="@+id/infotitle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dip"
+        android:layout_marginTop="80dip"
+        android:text="永远相信"
+        android:textColor="@color/class_A"
+        android:textSize="38sp" />
+
+    <TextView
+        android:id="@+id/infotitle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/infotitle1"
+        android:layout_marginLeft="30dip"
+        android:text="美好的事情"
+        android:textColor="@color/class_A"
+        android:textSize="38sp" />
+
+    <TextView
+        android:id="@+id/infotitle3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/infotitle2"
+        android:layout_marginLeft="30dip"
+        android:text="即将发生"
+        android:textColor="@color/class_A"
+        android:textSize="38sp" />
+    
+   <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dip"
+        android:text="小米运维（NoOps.me）出品"
+        android:textColor="@color/class_A"
+        android:textSize="20sp" />
+
+</RelativeLayout>

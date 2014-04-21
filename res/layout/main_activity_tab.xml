@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tabsLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="15.33dip"
+    android:layout_marginRight="15.33dip"
+    android:background="@drawable/tab_bg">
+
+    <ImageView
+        android:id="@+id/main_activity_tab_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:scaleType="center"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/main_activity_tab_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:scaleType="center"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/main_activity_tab_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        android:includeFontPadding="false"
+        android:textSize="12dip" />
+
+    <ImageView
+        android:id="@+id/main_activity_tab_new"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+</FrameLayout>
