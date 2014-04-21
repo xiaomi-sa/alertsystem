@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2007-2008 Esmertec AG.
+ * Copyright (C) 2007-2008 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources>
+
+    <!-- Activity background color -->
+    <drawable name="class_zero_background">#7f040000</drawable>
+
+    <!-- Widget background -->
+    <drawable name="light_blue_background">#ffecfbff</drawable>
+    <drawable name="white_background">#ffffffff</drawable>
+
+    <!-- text color -->
+    <drawable name="text_color_green">#ff478534</drawable>
+
+    <color name="textcolor_secondline">#666666</color>
+
+    <drawable name="msg_item_color">#fff7f7f7</drawable>
+    <drawable name="msg_item_color_inbox">#ff000000</drawable>
+    <drawable name="msg_item_color_outbox">#ee747474</drawable>
+    <drawable name="sms_message_out_color">#ffebf0f2</drawable>
+    <drawable name="sms_message_in_color">#ffffffff</drawable>
+    <drawable name="mms_msg_content_color">#ff999999</drawable>
+    <drawable name="transparent_background">#00000000</drawable>
+    <drawable name="special_msg_item_bg_normal">#ffffffff</drawable>
+    <drawable name="special_msg_item_alternative_bg_normal">#ffeeeeee</drawable>
+    <drawable name="nearby_popup_item_hightlighted">#5fb02e</drawable>
+    <!-- Chat "sent time" text background -->
+    <color name="timestamp_color">#bf000000</color>
+    <!-- the background color used for unread conversation -->
+    <color name="read_bgcolor">#ffeeeeee</color>
+    <color name="conversion_list_bg">#fff8f8f8</color>
+    <color name="recipient_bg_color">#ffe4e4e4</color>
+    <color name="unsent_color">#000000</color>
+    <color name="fail_color">#ff0000</color>
+    <color name="sent_color">#ff85aeec</color>
+    <color name="delivered_color">#fff98a12</color>
+    <color name="read_color">#ff629c3d</color>
+    <color name="search_hint">#cccccc</color>
+    <color name="list_item_primary">#ff333333</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="darkGray">#333333</color>
+    <color name="lightGray">#777777</color>
+    <color name="red">#FF0000</color>
+    <color name="white_75_transparent">#C0FFFFFF</color>
+    <color name="white_50_transparent">#80FFFFFF</color>
+    <color name="white_40_transparent">#60FFFFFF</color>
+    <color name="white_30_transparent">#40FFFFFF</color>
+    <color name="black_75_transparent">#C0000000</color>
+    <color name="black_50_transparent">#80000000</color>
+    <color name="black_60_transparent">#A0000000</color>
+    <color name="black_30_transparent">#60000000</color>
+    <color name="black_20_transparent">#30000000</color>
+    <color name="black_40_transparent">#90000000</color>
+    <color name="black_00_transparent">#00000000</color>
+    <color name="common_title">#FFFFFF</color>
+    <color name="common_title2">#a5a7ab</color>
+    <color name="help_color">#888888</color>
+    <color name="message_time">#a1a1a1</color>
+    <color name="message_text">#444444</color>
+    <color name="message_status_text">#4f9630</color>
+    <color name="message_status_unread_tag">#cfcfcf</color>
+    <color name="time_color">#676a73</color>
+    <color name="pre_background">#ffd2d2d2</color>
+    <color name="gray">#ff888888</color>
+    <color name="namecard_email_color_green">#ff51982a</color>
+    <color name="namecard_email_color_orange">#ffff8712</color>
+
+    <drawable name="namcard_picker_bkg_normal">#ff272727</drawable>
+    <drawable name="namcard_picker_bkg_hover">#ff333333</drawable>
+
+    <color name="namecard_id_green">#ff339900</color>
+    <color name="namecard_id_brown">#ff999999</color>
+    <color name="gift_init_background">#fff1ad</color>
+    <color name="gift_select_background">#ffa800</color>
+    <color name="namecard_key_color">#ffaaaaaa</color>
+    <color name="wall_post_time_color">#ff999999</color>
+    <color name="gray_line_color">#d9d9d9</color>
+    <color name="white_board_bg">#e1e4e9</color>
+    <color name="pls_talk_normal">#707277</color>
+    <color name="search_friend_highlight">#339933</color>
+    <color name="system_msg">#45474c</color>
+    <color name="local_contacts_name">#555b68</color>
+    <color name="local_contacts_phone">#8d9198</color>
+    <color name="hand_write_color_black">#555555</color>
+    <color name="hand_write_color_green">#78bb3c</color>
+    <color name="hand_write_color_blue">#3aa4e3</color>
+    <color name="hand_write_color_purple">#7d72ed</color>
+    <color name="hand_write_color_pink">#e96ba6</color>
+    <color name="hand_write_color_yellow">#efa800</color>
+    <color name="wall_item_ori_bkg">#f7f7f7</color>
+
+    <!-- Bubble Location Color -->
+    <color name="bubble_location_receive">#5c5f65</color>
+    <color name="bubble_location_send">#416333</color>
+    <color name="image_background">#FFFFFF</color>
+    <color name="hand_write_color_001">#f81e7f</color>
+    <color name="hand_write_color_002">#fe0000</color>
+    <color name="hand_write_color_003">#fe9903</color>
+    <color name="hand_write_color_004">#fdfd04</color>
+    <color name="hand_write_color_005">#22d422</color>
+    <color name="hand_write_color_006">#12d1ce</color>
+    <color name="hand_write_color_007">#65a2f4</color>
+    <color name="hand_write_color_008">#6164cd</color>
+    <color name="hand_write_color_009">#6600cb</color>
+    <color name="hand_write_color_010">#8f8f8f</color>
+    <color name="hand_write_color_011">#f29cc2</color>
+    <color name="hand_write_color_012">#ee8989</color>
+    <color name="hand_write_color_013">#f4c175</color>
+    <color name="hand_write_color_014">#fef9a6</color>
+    <color name="hand_write_color_015">#7ad27a</color>
+    <color name="hand_write_color_016">#82eaea</color>
+    <color name="hand_write_color_017">#a2c6f7</color>
+    <color name="hand_write_color_018">#a4a6f9</color>
+    <color name="hand_write_color_019">#ba7cf6</color>
+    <color name="hand_write_color_020">#FFFFFF</color>
+    <color name="hand_write_color_021">#85043d</color>
+    <color name="hand_write_color_022">#831414</color>
+    <color name="hand_write_color_023">#80420e</color>
+    <color name="hand_write_color_024">#d9ae00</color>
+    <color name="hand_write_color_025">#237b23</color>
+    <color name="hand_write_color_026">#125f5f</color>
+    <color name="hand_write_color_027">#09489d</color>
+    <color name="hand_write_color_028">#0f129b</color>
+    <color name="hand_write_color_029">#6d136d</color>
+    <color name="hand_write_color_030">#000000</color>
+    <color name="hand_write_selected_text_color">#5dae0b</color>
+
+    <!-- new popo -->
+    <color name="file_info">#999999</color>
+    <color name="image_loading">#aa000000</color>
+    <color name="topic_title_normal">#653005</color>
+
+    <!-- barcode scanner -->
+    <color name="transparent">#00000000</color>
+    <color name="result_view">#b0000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="pull_down_refresh_bkg">#e1e4e9</color>
+    <color name="class_A">#ffffff</color>
+    <color name="class_B">#333333</color>
+    <color name="class_C">#666666</color>
+    <color name="class_D">#999999</color>
+    <color name="class_E">#aaaaaa</color>
+    <color name="class_F">#ff7700</color>
+    <color name="class_G">#3399ff</color>
+    <color name="class_H">#ffaa00</color>
+    <color name="class_I">#f6f6f6</color>
+    <color name="class_J">#ff0000</color>
+    <color name="class_K">#00ccff</color>
+    <color name="class_L">#36b336</color>
+    <color name="class_M">#899bdd</color>
+    <color name="class_N">#dbdbdb</color>
+    <color name="class_O">#000000</color>
+    <color name="class_P">#6ab6ec</color>
+    
+    <color name="class_A_75_trans">#C0ffffff</color>
+    <color name="class_A_50_trans">#7fffffff</color>
+    <color name="class_B_75_trans">#C0333333</color>
+    <color name="class_O_75_trans">#C0000000</color>
+    <color name="class_O_90_trans">#E6000000</color>
+    <color name="class_E_50_trans">#7faaaaaa</color>
+
+    <!-- 新表情 -->
+    <color name="animemoji_progress">#ff7700</color>
+    <color name="lottery_image_back">#dedede</color>
+    <!-- new namecard -->
+    <color name="indicator_A">#ff9900</color>
+    <color name="line">#cfcfcf</color>
+    <color name="sns_nickname">#333333</color>
+    <color name="sns_number">#ffc63d</color>
+    <color name="sns_des">#999999</color>
+    <color name="progress_color">#d1d1d1</color>
+
+    <!-- for alertsystem tab -->
+    <color name="green">#139949</color>
+    <color name="dark_green">#028035</color>
+    <color name="dark_gray">#dfe8e5</color>
+    <color name="dark_black">#4a504e</color>
+    
+    <!-- slide tab -->
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="backColor">#2000</color>
+    <color name="xiaomiYellow">#F5801F</color>
+    <color name="diviverLine">#b3b3b3</color>
+    
+    <!-- logo color -->
+    <color name="metroYellow">#F3B300</color>
+    <color name="metroBlue">#2673EC</color>
+    <color name="metroGreen">#78BA00</color>
+    <color name="metroBlack">#252525</color>
+    <color name="metroRed">#AE113D</color>
+    
+    
+        
+    
+    
+</resources>

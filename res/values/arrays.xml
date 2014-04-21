@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="sub_title">
+        <item>P</item>
+        <item>P0</item>
+        <item>P1</item>
+        <item>P2</item>
+        <item>P3</item>
+        <item>P4</item>
+        <item>P5</item>
+        <item>P6</item>
+    </string-array>
+    <string-array name="tabs">
+        <item>全部</item>
+        <item>P0级</item>
+        <item>P1级</item>
+        <item>P2级</item>
+        <item>P3级</item>
+        <item>P4级</item>
+        <item>P5级</item>
+        <item>P6级</item>
+    </string-array>
+    <string-array name="sound_type">
+        <item>不提醒</item>
+        <item>声音提醒</item>
+        <item>震动提醒</item>
+        <item>声音加震动提醒</item>
+        <item>通知栏提醒</item>
+    </string-array>
+    <string-array name="pref_notification_values" translatable="false">
+        <item>NONE</item>
+        <item>BUBBLE</item>
+        <item>SOUND</item>
+        <item>VIBRATE</item>
+        <item>SOUND_VIBRATE</item>
+    </string-array>
+    <string-array name="people_say">
+        <item>大家说</item>
+        <item>有人说</item>     
+    </string-array>    
+    <string-array name="popular">
+        <item>永远相信美好的事情即将发生</item>
+        <item>菊花也是一种美</item>
+        <item>初恋无限好，只是挂得早</item>
+        <item>暗恋是成功的哑剧</item>
+        <item>学会换位思考，世界才会简单 </item>
+        <item>心若怡然，何处不桃源</item>  
+        <item>有些话，说再多也没用</item> 
+        <item>人生，快乐不快乐看心情</item> 
+        <item>任何物体的表面，都不是绝对的平整</item> 
+        <item>生活总不完美，总有辛酸的泪</item> 
+        <item>没有报警，生活总是缺了点什么</item>             
+        <item>报警是解决失恋痛苦的良药</item>                   
+    </string-array>
+    
+    
+</resources>

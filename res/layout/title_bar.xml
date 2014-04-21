@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/background_linear_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="44dip"
+    android:background="@drawable/all_top_new_bg"
+    android:baselineAligned="false" >
+
+    <FrameLayout
+        android:id="@+id/titlebar_left_container"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true" >
+
+        <RelativeLayout
+            android:id="@+id/titlebar_left_image_container"
+            android:layout_width="55dip"
+            android:layout_height="fill_parent" >
+
+            <ImageView
+                android:id="@+id/titlebar_left_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2.5dip"
+                android:layout_marginLeft="7.5dip"
+                android:layout_marginTop="2.5dip" />
+
+            <TextView
+                android:id="@+id/titlebar_left_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:textColor="@color/class_L"
+                android:textSize="12dip"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/titlebar_title_container"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/titlebar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center_vertical|center_horizontal"
+                android:text=""
+                android:textColor="@color/class_A"
+                android:textSize="20dip" />
+
+            <ImageView
+                android:id="@+id/title_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center_vertical|center_horizontal"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/titlebar_subtitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:gravity="center_vertical|center_horizontal"
+            android:singleLine="true"
+            android:textColor="@color/class_A"
+            android:textSize="14dip"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/titlebar_right_container"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:minWidth="60dip" >
+
+        <RelativeLayout
+            android:id="@+id/titlebar_right_image_container"
+            android:layout_width="55dip"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right" >
+
+            <ImageView
+                android:id="@+id/titlebar_right_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="2.5dip"
+                android:layout_marginRight="7.5dip"
+                android:layout_marginTop="2.5dip" />
+        </RelativeLayout>
+    </FrameLayout>
+
+</RelativeLayout>
