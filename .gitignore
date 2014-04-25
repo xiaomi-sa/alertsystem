@@ -1,3 +1,6 @@
 *.swp
 out/
 .idea/
+app_key
+./bin/
+./gen/
