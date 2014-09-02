@@ -12,6 +12,6 @@
 - 字段5：告警的具体内容
 
 ##下载地址：
-在小米应用商城里面，搜索"报警助手"，下载即可。如果担心应用风险或者有定制化需求，可以到github上下载源代码进行二次开发，地址：https://github.com/xiaomi-sa/alertsystem。
+在小米应用商城里面，搜索"报警助手"，下载即可。如果担心应用风险或者有定制化需求，可以到github上下载源代码进行二次开发，地址[https://github.com/xiaomi-sa/alertsystem](https://github.com/xiaomi-sa/alertsystem)。
 ##开发者：
 本应用有小米运维部开发，博客:http://noops.me. 有问题可以联系: jingyuan@xiaomi.com、panxiaodong@xiaomi.com或者laiwei@xiaomi.com
